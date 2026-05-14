@@ -6,5 +6,5 @@ struct Result {
   bool has_real_roots;
 };
 
-struct Result Roots(double a, double b, double c);
+struct Result Roots(double a, double b, double c, double eps);
 int sign(double x, double epsilon);
