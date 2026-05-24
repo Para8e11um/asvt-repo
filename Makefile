@@ -21,7 +21,7 @@ fmt:
 	ar rc $@ $<
 
 %_test.o: %_test.c
-	gcc -g -c $< -o $@
+	gcc -g -c $< -o$@
 
 %_test: %_test.o %.a
 	gcc -g -static -o $@ $^ -lm
